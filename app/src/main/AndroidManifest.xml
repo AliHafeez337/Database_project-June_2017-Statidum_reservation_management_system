@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ali.stadiumreservationmanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".admin">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.admin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogedIn">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.LogedIn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.Profile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Reserve">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.Reserve" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Seat" />
+
+        <intent-filter>
+            <action android:name="ali.stadiumreservationmanagementsystem.Reserve" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name=".Parking">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.Reserve" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".createAccount">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.createAccount" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Credit">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.Credit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Meal">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.Meal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".scheduleForNonUser">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.scheduleForNonUser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Stadium">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.Stadium" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UpdateSchedule">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.UpdateSchedul" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddCustomer">
+            <intent-filter>
+                <action android:name="ali.stadiumreservationmanagementsystem.AddCustomer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".removeCustomer"></activity>
+    </application>
+
+</manifest>

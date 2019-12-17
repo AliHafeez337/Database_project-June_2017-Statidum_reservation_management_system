@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ali.stadiumreservationmanagementsystem.Credit">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="credit card No."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txt2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtV1"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Total Balance"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/txtV3"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/txt3"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Credit Card type"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txt5"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+    <EditText
+        android:id="@+id/txt5"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="42dp"
+        android:layout_marginLeft="16dp"
+
+        android:ems="10"
+        android:hint="Expiration Date"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/txtV5"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/txtV1"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:text="Credit Card Details"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="57dp" />
+
+    <TextView
+        android:id="@+id/txtV2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="-26dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt2"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/txtV3"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtV4"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/txtV4"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt5"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/txtV5"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
